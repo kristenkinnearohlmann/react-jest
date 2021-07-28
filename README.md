@@ -1,7 +1,5 @@
-My Article code example on "Practical Guide to testing React Applications with Jest"
+# Jest Testing for React
 
-Clone this repo
-
-Run npm install
-
-Run npm start
+- Clone this repo from <https://github.com/daacode/react-jest>
+- Run npm install
+- Run npm start
