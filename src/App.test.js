@@ -9,7 +9,7 @@ it("renders correctly", () => {
   expect(wrapper.state("error")).toEqual(null);
 });
 
-/*
+
  it("renders without crashing", () => {
   shallow(<App />);
 });
@@ -17,9 +17,8 @@ it("renders correctly", () => {
 it("renders Account header", () => {
   const wrapper = shallow(<App />);
   const header = <h1>Display Active Users Account Details</h1>;
-  // expect(wrapper.contains(welcome)).toBe(true);
   expect(wrapper.contains(header)).toEqual(true);
-}); */
+});
 
 /*
 const user = {
