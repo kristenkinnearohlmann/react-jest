@@ -20,7 +20,7 @@ it("renders Account header", () => {
   expect(wrapper.contains(header)).toEqual(true);
 });
 
-/*
+
 const user = {
   name: "Adeneye David",
   email: "david@gmail.com",
@@ -40,13 +40,13 @@ describe("<Account />", () => {
   });
 });
 
- it("renders welcome message", () => {
-  const wrapper = shallow(<App />);
-  const welcome = <h2>Welcome to React Testing</h2>;
-  // expect(wrapper.contains(welcome)).toBe(true);
-  expect(wrapper.contains(welcome)).toEqual(true);
-});
- */
+//  it("renders welcome message", () => {
+//   const wrapper = shallow(<App />);
+//   const welcome = <h2>Welcome to React Testing</h2>;
+//   // expect(wrapper.contains(welcome)).toBe(true);
+//   expect(wrapper.contains(welcome)).toEqual(true);
+// });
+
 
 /* it("renders without crashing", () => {
   const mockColor = "David";
